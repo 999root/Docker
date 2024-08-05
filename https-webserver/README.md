@@ -6,7 +6,7 @@ crontab -e
 Select NANO editor
 
 ```
-/usr/bin/docker compose -f /root/https-webserver/docker-compose.yml up certbot
+0 5 1 */2* * /usr/bin/docker compose -f /root/https-webserver/docker-compose.yml up certbot
 ```
 
 # Run CMD
