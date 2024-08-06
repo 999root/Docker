@@ -1,0 +1,1 @@
+docker compose --profile nginx-normal up --build -d
