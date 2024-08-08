@@ -1,0 +1,5 @@
+docker compose down
+docker compose down --rmi all
+docker ps -a
+docker stop nginx
+docker rm nginx
